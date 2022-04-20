@@ -221,10 +221,12 @@ list<string> ls(string dirPath, string regEx){
 
     list<string> l;
     WIN32_FIND_DATAA ffd;
-    LPCSTR findPath = (dirPath + regEx).c_str();
+    char findPath[dirPath.length() + regEx.length() + 2];
+    strcpy(findPath, dirPath.c_str());
+    strcat(findPath, regEx.c_str());
     HANDLE hFind = INVALID_HANDLE_VALUE;
-
-    hFind = FindFirstFileA(findPath, &ffd);
+    cout << dirPath << " " << regEx << " " << findPath << endl;
+    hFind = FindFirstFileA((const char *)findPath, &ffd);
 
     if(hFind==INVALID_HANDLE_VALUE){ error("Buscando primer elemento"); }
 
