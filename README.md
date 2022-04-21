@@ -16,3 +16,13 @@ Many of the generated executables will require the machine administrator privile
 -Appinit-Sys32.cpp  
 -Appinit-SysWow64.cpp  
 -HKLM-ActiveSetup.cpp   
+
+To ensure the aforementioned programs are executed with administrator privileges, an aplication manifest that changes the privilege level required for them to run can be embeded into the generated executable files. This can be done either during the program compilation process or once it has been compiled, here the steps to perform the latter aproach are listed:  
+0. Microsoft [Visual Studio](https://visualstudio.microsoft.com/es/vs/) is needed for this aproach (Visual Studio Code won't work)
+1. Open the compiled executable with Visual Studio
+2. Right click on it and select add resource
+3. Click *Import*
+4. Select the manifest file to embed
+5. In the *Resource Type* field, enter **RT_MANIFEST**
+6. In the property grid, change the resource *ID* from **101** to **1**
+7. Save the executable file
