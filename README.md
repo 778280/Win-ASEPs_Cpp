@@ -18,6 +18,7 @@ Many of the generated executables will require the machine administrator privile
 -HKLM-ActiveSetup.cpp   
 
 To ensure the aforementioned programs are executed with administrator privileges, an aplication manifest that changes the privilege level required for them to run can be embeded into the generated executable files. This can be done either during the program compilation process or once it has been compiled, here the steps to perform the latter aproach are listed:  
+
 0. Microsoft [Visual Studio](https://visualstudio.microsoft.com/es/vs/) is needed for this aproach (Visual Studio Code won't work)
 1. Open the compiled executable with Visual Studio
 2. Right click on it and select add resource
