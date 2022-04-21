@@ -27,3 +27,6 @@ To ensure the aforementioned programs are executed with administrator privileges
 5. In the *Resource Type* field, enter **RT_MANIFEST**
 6. In the property grid, change the resource *ID* from **101** to **1**
 7. Save the executable file
+
+
+The executable files provided on this repository have been compiled using an [offline mingw-w64 instalation solution](https://developpaper.com/mingw-w64-offline-package-installation-method-available-after-test/) downloadable [here](https://sourceforge.net/projects/mingw-w64/). You can compile them with any version of the g++ compiler for windows, but bear in mind that in order to be executed on a different machine than that in which they were generated the same version of the compiler and libraries will need to be present.
