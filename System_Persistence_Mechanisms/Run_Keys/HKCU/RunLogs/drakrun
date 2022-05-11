@@ -1,0 +1,11 @@
+{"levelname": "INFO", "created": 1650497807.856706, "message": "Running on: Portatil-Unizar"}
+{"levelname": "INFO", "created": 1650497807.8570583, "message": "Sample SHA256: c9312aa59ede755217b18b41b9d3f5d43f149270186bca163a86a23b9040a21a"}
+{"levelname": "INFO", "created": 1650497807.8573122, "message": "Analysis UID: d571f2a4-11d9-4127-b669-4a34443f8807"}
+{"levelname": "INFO", "created": 1650497807.8577118, "message": "Running file as exe"}
+{"levelname": "INFO", "created": 1650497807.8582356, "message": "Using file name HKCU_Run.exe"}
+{"levelname": "INFO", "created": 1650497807.863667, "message": "Trying to analyze sample (attempt 1/3)"}
+{"levelname": "INFO", "created": 1650497813.054237, "message": "VM restored"}
+{"levelname": "INFO", "created": 1650497813.1178758, "message": "Copying sample to VM..."}
+{"levelname": "INFO", "created": 1650497813.2255716, "message": "Using command: C:\\Users\\carlos\\Desktop\\HKCU_Run.exe"}
+{"levelname": "INFO", "created": 1650497933.4783447, "message": "Analysis done. Collecting artifacts..."}
+{"levelname": "INFO", "created": 1650497933.4810543, "message": "Uploading artifacts..."}

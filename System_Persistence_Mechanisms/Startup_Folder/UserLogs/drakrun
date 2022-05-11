@@ -1,0 +1,11 @@
+{"levelname": "INFO", "created": 1650505447.761122, "message": "Running on: Portatil-Unizar"}
+{"levelname": "INFO", "created": 1650505447.7615988, "message": "Sample SHA256: 75b672964819513cb227a4947212d22ec2c2ce61afafb45e1335d2f2ca0eb7c3"}
+{"levelname": "INFO", "created": 1650505447.7619975, "message": "Analysis UID: 616a3b22-fd01-4fbc-a281-4b91c9f3244d"}
+{"levelname": "INFO", "created": 1650505447.7625713, "message": "Running file as exe"}
+{"levelname": "INFO", "created": 1650505447.7630117, "message": "Using file name StartupFolder_Appdata.exe"}
+{"levelname": "INFO", "created": 1650505447.7708194, "message": "Trying to analyze sample (attempt 1/3)"}
+{"levelname": "INFO", "created": 1650505451.4783006, "message": "VM restored"}
+{"levelname": "INFO", "created": 1650505451.5480592, "message": "Copying sample to VM..."}
+{"levelname": "INFO", "created": 1650505451.6575186, "message": "Using command: C:\\Users\\carlos\\Desktop\\StartupFolder_Appdata.exe"}
+{"levelname": "INFO", "created": 1650505571.9182699, "message": "Analysis done. Collecting artifacts..."}
+{"levelname": "INFO", "created": 1650505571.9205806, "message": "Uploading artifacts..."}

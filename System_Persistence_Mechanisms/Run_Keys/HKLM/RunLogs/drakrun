@@ -1,0 +1,13 @@
+{"levelname": "INFO", "created": 1650499773.8177283, "message": "Running on: Portatil-Unizar"}
+{"levelname": "INFO", "created": 1650499773.818298, "message": "Sample SHA256: 83e125b6e9c6034d1b5e6b6e67b7e4eb9756f6162bbd96470a9a86ebdb429d36"}
+{"levelname": "INFO", "created": 1650499773.8187573, "message": "Analysis UID: 33729c5c-3461-4d0c-a96c-97f0ff512393"}
+{"levelname": "INFO", "created": 1650499773.8194087, "message": "Running file as exe"}
+{"levelname": "INFO", "created": 1650499773.819876, "message": "Using file name HKLM_Run.exe"}
+{"levelname": "INFO", "created": 1650499773.825542, "message": "Trying to analyze sample (attempt 1/3)"}
+{"levelname": "INFO", "created": 1650499778.9988213, "message": "VM restored"}
+{"levelname": "INFO", "created": 1650499779.0754752, "message": "Copying sample to VM..."}
+{"levelname": "INFO", "created": 1650499779.2067103, "message": "Using command: SUDO C:\\Users\\carlos\\Desktop\\HKLM_Run.exe"}
+{"levelname": "WARNING", "created": 1650499779.3381324, "message": "Injection succeeded but the sample didn't execute properly"}
+{"levelname": "INFO", "created": 1650499779.33985, "message": "Injection failed with error: ERROR_FILE_NOT_FOUND"}
+{"levelname": "INFO", "created": 1650499781.5816562, "message": "Analysis done. Collecting artifacts..."}
+{"levelname": "INFO", "created": 1650499781.5845125, "message": "Uploading artifacts..."}

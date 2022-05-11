@@ -1,0 +1,11 @@
+{"levelname": "INFO", "created": 1650505832.4723892, "message": "Running on: Portatil-Unizar"}
+{"levelname": "INFO", "created": 1650505832.472706, "message": "Sample SHA256: cabd20d82e89893443daa387c4775963d0b1a49316889a90617cc4f479fee791"}
+{"levelname": "INFO", "created": 1650505832.4729385, "message": "Analysis UID: 61cd5fa8-aa67-4738-9387-449aa7ed455d"}
+{"levelname": "INFO", "created": 1650505832.473277, "message": "Running file as exe"}
+{"levelname": "INFO", "created": 1650505832.4735427, "message": "Using file name Shortcuts.exe"}
+{"levelname": "INFO", "created": 1650505832.4795444, "message": "Trying to analyze sample (attempt 1/3)"}
+{"levelname": "INFO", "created": 1650505836.1737676, "message": "VM restored"}
+{"levelname": "INFO", "created": 1650505836.2458525, "message": "Copying sample to VM..."}
+{"levelname": "INFO", "created": 1650505836.3761573, "message": "Using command: C:\\Users\\carlos\\Desktop\\Shortcuts.exe"}
+{"levelname": "INFO", "created": 1650505956.6393619, "message": "Analysis done. Collecting artifacts..."}
+{"levelname": "INFO", "created": 1650505956.641618, "message": "Uploading artifacts..."}

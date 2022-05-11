@@ -1,0 +1,11 @@
+{"levelname": "INFO", "created": 1650504917.1590352, "message": "Running on: Portatil-Unizar"}
+{"levelname": "INFO", "created": 1650504917.1593564, "message": "Sample SHA256: af9320be4e27effece32850bfb2d26efa9d49fc69c35fbddec5248d176ef62eb"}
+{"levelname": "INFO", "created": 1650504917.1595974, "message": "Analysis UID: 623be6fb-49bf-48c9-9dec-d4d085da7893"}
+{"levelname": "INFO", "created": 1650504917.1599698, "message": "Running file as exe"}
+{"levelname": "INFO", "created": 1650504917.160241, "message": "Using file name Terminal_RunOnce.exe"}
+{"levelname": "INFO", "created": 1650504917.166017, "message": "Trying to analyze sample (attempt 1/3)"}
+{"levelname": "INFO", "created": 1650504920.8716285, "message": "VM restored"}
+{"levelname": "INFO", "created": 1650504920.9419405, "message": "Copying sample to VM..."}
+{"levelname": "INFO", "created": 1650504921.0493336, "message": "Using command: C:\\Users\\carlos\\Desktop\\Terminal_RunOnce.exe"}
+{"levelname": "INFO", "created": 1650505041.3109572, "message": "Analysis done. Collecting artifacts..."}
+{"levelname": "INFO", "created": 1650505041.313223, "message": "Uploading artifacts..."}
