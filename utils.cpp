@@ -6,8 +6,11 @@
 #include <list>
 #include <shobjidl.h>
 #include <shlobj.h>
+#include <chrono>
 
 #include "utils.h"
+
+typedef unsigned __int64 QWORD;
 
 using namespace std;
 
@@ -76,7 +79,12 @@ void set_registry_value(HKEY rootKey, LPCSTR subKey, LPCSTR name, string *strPtr
         data = (LPBYTE) numPtr;
         size = sizeof(DWORD);
     }
-    else error("Dato no especificado");
+    else {
+        type = REG_QWORD;
+        QWORD timestamp = chrono::duration_cast<chrono::milliseconds>(chrono::system_clock::now().time_since_epoch()).count();
+        data = (LPBYTE) &timestamp;
+        size = sizeof(QWORD);
+    }
 
     HKEY key;
     DWORD res;
