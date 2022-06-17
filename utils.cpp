@@ -62,6 +62,11 @@ string newBinary(string exePath){
     return binary;
 }
 
+void createSampleDll(string path){
+
+    HANDLE h = CreateFileA(path.c_str(), GENERIC_READ | GENERIC_WRITE, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
+}
+
 void set_registry_value(HKEY rootKey, LPCSTR subKey, LPCSTR name, string *strPtr, DWORD *numPtr){
 
     DWORD type;
