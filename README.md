@@ -5,6 +5,8 @@ To compile use "g++ *source.cpp* *path_to_**utils.cpp*** -o *prog.exe* -lole32 -
 
 Many of the generated executables will require the machine administrator privileges to be executed, mainly those compiled from the following source files:  
 -Browser_Helper_Objects.cpp   
+-HKCU-Office_Addins.cpp   
+-HKLM-Office_Addins.cpp   
 -HKLM_Run.cpp  
 -HKLM_RunOnce.cpp  
 -HKLM_RunOnceEx.cpp  
