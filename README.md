@@ -18,6 +18,7 @@ Many of the generated executables will require the machine administrator privile
 -HKCR-COM_Hijacking.cpp   
 -HKLM-COM_Hijacking.cpp   
 -Shim_Databases.cpp   
+-Extension_Hijacking.cpp   
 -Winlogon.cpp  
 -Appinit-Sys32.cpp  
 -Appinit-SysWow64.cpp  
