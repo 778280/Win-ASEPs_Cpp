@@ -67,20 +67,20 @@ void createSampleDll(string path){
     HANDLE h = CreateFileA(path.c_str(), GENERIC_READ | GENERIC_WRITE, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
 }
 
-void set_registry_value(HKEY rootKey, LPCSTR subKey, LPCSTR name, string *strPtr, DWORD *numPtr){
+void set_registry_value(HKEY rootKey, LPCSTR subKey, LPCSTR name, string *strPtr, DWORD *numPtr, bool expand){
 
     DWORD type;
     LPBYTE data;
     DWORD size;
 
     if(strPtr!=NULL){
-        type = TypeStr;
+        type = expand ? REG_EXPAND_SZ : REG_SZ;
         LPCSTR str = strPtr->c_str();
         data = (LPBYTE) str;
         size = (strlen(str) + 1) * sizeof(char);
     }
     else if(numPtr!=NULL){
-        type = TypeNum;
+        type = REG_DWORD;
         data = (LPBYTE) numPtr;
         size = sizeof(DWORD);
     }
