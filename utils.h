@@ -11,6 +11,8 @@ string randName(int len, bool hex);
 
 string newBinary(string exePath);
 
+void createSampleDll(string path);
+
 void set_registry_value(HKEY rootKey, LPCSTR subKey, LPCSTR name, string *strPtr, DWORD *numPtr);
 
 void create_shortcut(string linkPath, string targetPath, string description, string *workDir, string *arguments, string *iconLocation);

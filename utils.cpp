@@ -238,7 +238,7 @@ list<string> ls(string dirPath, string regEx){
     strcpy(findPath, dirPath.c_str());
     strcat(findPath, regEx.c_str());
     HANDLE hFind = INVALID_HANDLE_VALUE;
-    cout << dirPath << " " << regEx << " " << findPath << endl;
+    
     hFind = FindFirstFileA((const char *)findPath, &ffd);
 
     if(hFind==INVALID_HANDLE_VALUE){ error("Buscando primer elemento"); }
